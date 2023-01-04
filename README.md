@@ -16,9 +16,9 @@ In add_project_to_orders_table migrations up function add below function as :
         $table->string('Project')->nullable()->after('id');            
     });
 
-php artisan migrate
+php artisan migrate  
 
-php artisan serve
+php artisan serve 
 
 
 
